@@ -60,6 +60,7 @@ Setiap analisis dalam GovPulse mengikuti standar profesional data science untuk 
 ## 🚀 Fitur Utama
 - **Public Sentiment Engine**: Klasifikasi aspirasi publik menjadi sentimen positif/negatif.
 - **Policy Impact Predictor**: AI untuk prediksi indeks kebahagiaan (Happiness Score).
+- **Smart Crisis Simulation**: Simulasi dampak inflasi/kenaikan harga dan rekomendasi otomatis untuk bantalan sosial (Social Safety Net).
 - **Explainable AI (XAI)**: Transparansi penuh menggunakan *Feature Importance*.
 - **Interactive Dashboards**: Visualisasi berbasis Plotly yang dinamis.
 
@@ -75,7 +76,7 @@ Setiap analisis dalam GovPulse mengikuti standar profesional data science untuk 
 │   │   └── services/     # Business Logic Layer
 │   └── main.py           # Application Entry Point
 ├── notebooks/
-│   └── governance_ml_experiments.ipynb # Advanced ML Research Suite
+│   └── governance_ml_experiments.ipynb # Advanced ML Research & Crisis Simulation Suite
 └── docs/
     └── assets/           # Project Assets (Logo, Images)
 ```
