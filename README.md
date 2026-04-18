@@ -28,6 +28,24 @@ Membantu pemerintah dan pengambil kebijakan untuk:
 
 ---
 
+## 🔄 Penerapan dalam Siklus Kebijakan
+Analisis Machine Learning di GovPulse dirancang untuk masuk ke tiga fase utama siklus kebijakan publik:
+
+### 1. Sebelum Kebijakan Dibuat (Fase Perencanaan)
+Gunakan ML ketika pemerintah perlu memahami masalah yang kompleks atau memprediksi masa depan agar tidak salah sasaran.
+- **Simulasi Dampak**: Sebelum menaikkan harga atau pajak, GovPulse mensimulasikan dampak terhadap daya beli dan kebahagiaan publik.
+
+### 2. Saat Kebijakan Berjalan (Fase Implementasi)
+Gunakan ML untuk memastikan operasional layanan publik berjalan otomatis, adil, dan efisien.
+- **Merespons Aduan**: Sistem klasifikasi otomatis memilah algoritma laporan warga agar langsung terkirim ke dinas terkait secara real-time.
+
+### 3. Setelah Kebijakan Selesai (Fase Evaluasi)
+Gunakan ML untuk mengukur apakah kebijakan tersebut benar-benar berhasil atau perlu dihentikan.
+- **Analisis Sentimen**: Mengetahui tingkat kepuasan publik setelah sebuah aplikasi atau layanan pemerintah diluncurkan.
+- **Audit Kinerja**: Menganalisis apakah anggaran yang dikeluarkan berkorelasi dengan perbaikan kesejahteraan daerah.
+
+---
+
 ## 🧠 Metodologi Analisis (6 Tahapan)
 Setiap analisis dalam GovPulse mengikuti standar profesional data science untuk kebijakan publik:
 1.  **Data Collection**: Integrasi silo data secara otomatis dari internet.
