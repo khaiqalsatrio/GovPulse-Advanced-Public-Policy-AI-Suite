@@ -1,4 +1,4 @@
-![GovPulse Banner](file:///C:/Users/LENOVO/.gemini/antigravity/brain/9052f237-973b-460f-94f6-4ec35022ae1e/govpulse_banner_1776518218315.png)
+![GovPulse Banner](./docs/assets/banner.png)
 
 # GovPulse: Advanced Public Policy AI Suite
 
@@ -30,38 +30,36 @@ Membantu pemerintah dan pengambil kebijakan untuk:
 
 ## 🧠 Metodologi Analisis (6 Tahapan)
 Setiap analisis dalam GovPulse mengikuti standar profesional data science untuk kebijakan publik:
-1.  **Data Collection**: Integrasi silo data (Dukcapil, Ekonomi, Sosial) secara otomatis dari internet.
-2.  **Data Cleaning**: Validasi data pemerintah yang berantakan, penanganan *missing values*, dan deteksi anomali.
+1.  **Data Collection**: Integrasi silo data secara otomatis dari internet.
+2.  **Data Cleaning**: Validasi data pemerintah, penanganan *missing values*, dan deteksi anomali.
 3.  **Descriptive Analysis**: Visualisasi distribusi statistik lapangan (Peta Dunia & Regional).
 4.  **Feature Engineering**: Pemilihan variabel strategis (GDP, Social Support, Corruption Index).
-5.  **Predictive Modeling**: Pelatihan model (Gradient Boosting/Random Forest) dengan Cross-Validation.
+5.  **Predictive Modeling**: Pelatihan model dengan Cross-Validation.
 6.  **Prescriptive Simulation**: Rekomendasi kebijakan berdasarkan proyeksi dampak numerik.
 
 ---
 
 ## 🚀 Fitur Utama
-- **Public Sentiment Engine**: Klasifikasi aspirasi publik menjadi sentimen positif/negatif untuk pemetaan opini.
-- **Policy Impact Predictor**: Model AI yang mampu memprediksi indeks kebahagiaan (Happiness Score) dengan akurasi tinggi.
-- **Explainable AI (XAI)**: Transparansi penuh menggunakan *Feature Importance* untuk menjelaskan dasar rekomendasi kebijakan.
-- **Interactive Dashboards**: Visualisasi berbasis Plotly yang dinamis dan informatif.
+- **Public Sentiment Engine**: Klasifikasi aspirasi publik menjadi sentimen positif/negatif.
+- **Policy Impact Predictor**: AI untuk prediksi indeks kebahagiaan (Happiness Score).
+- **Explainable AI (XAI)**: Transparansi penuh menggunakan *Feature Importance*.
+- **Interactive Dashboards**: Visualisasi berbasis Plotly yang dinamis.
 
 ---
 
 ## 📂 Struktur Proyek
 ```text
-govpulse/
+.
 ├── backend/
 │   ├── app/
-│   │   ├── api/          # REST API Endpoints (Swagger Docs)
-│   │   ├── core/         # Global Configurations & Models
-│   │   ├── ml/           # Core AI Engine (Sentiment & Predictor)
-│   │   ├── schemas/      # Pydantic Data Validation
-│   │   └── services/     # Business & ML Logic Layer
-│   ├── models/           # Pre-trained Production Models
-│   ├── Dockerfile        # Container Deployment Profile
+│   │   ├── api/          # REST API Endpoints
+│   │   ├── ml/           # Core AI Engine
+│   │   └── services/     # Business Logic Layer
 │   └── main.py           # Application Entry Point
-└── notebooks/
-    └── governance_ml_experiments.ipynb # Advanced ML Research Suite
+├── notebooks/
+│   └── governance_ml_experiments.ipynb # Advanced ML Research Suite
+└── docs/
+    └── assets/           # Project Assets (Logo, Images)
 ```
 
 ---
@@ -70,13 +68,13 @@ govpulse/
 
 ### Prasyarat
 - Python 3.10+
-- Pip (Python Package Manager)
+- Pip
 
 ### Langkah-langkah
 1.  **Clone Repository**
     ```bash
-    git clone https://github.com/username/govpulse.git
-    cd govpulse
+    git clone https://github.com/khaiqalsatrio/GovPulse-Advanced-Public-Policy-AI-Suite.git
+    cd GovPulse-Advanced-Public-Policy-AI-Suite
     ```
 2.  **Instalasi Backend**
     ```bash
@@ -87,18 +85,11 @@ govpulse/
     ```bash
     python main.py
     ```
-    *Akses API di `http://localhost:8000/docs`*
-
 4.  **Menjalankan Eksperimen (Jupyter)**
     ```bash
     cd notebooks
-    jupyter notebook governance_ml_experiments.ipynb
+    jupyter notebook
     ```
-
----
-
-## 📊 Transparansi & Akurasi
-Model di GovPulse divalidasi menggunakan **5-Fold Cross-Validation** untuk menjamin stabilitas prediksi. Transparansi model dijamin melalui analisis *residual* dan *feature importance* yang tertanam langsung dalam pipeline eksperimen.
 
 ---
 *Developed for a Better Governance and Evidence-Based Decision Making.*
