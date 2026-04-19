@@ -1,6 +1,6 @@
-from app.ml.sentiment.processor import clean_text
-from app.ml.sentiment.classifier import SentimentClassifier
-from app.ml.predictor.engine import ImpactEngine
+from src.data.preprocess import clean_text
+from src.models.predict import SentimentClassifier
+from src.models.train_model import ImpactEngine
 
 class MLService:
     def __init__(self):

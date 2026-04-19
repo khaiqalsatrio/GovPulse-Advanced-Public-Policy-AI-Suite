@@ -1,6 +1,6 @@
 from fastapi import APIRouter, HTTPException
-from app.schemas.schemas import SentimentRequest, SentimentResponse, ImpactRequest, ImpactResponse
-from app.services.ml_service import ml_service
+from src.utils.schemas import SentimentRequest, SentimentResponse, ImpactRequest, ImpactResponse
+from src.features.build_features import ml_service
 
 router = APIRouter()
 

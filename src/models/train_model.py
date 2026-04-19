@@ -1,7 +1,7 @@
 import joblib
 import os
 import numpy as np
-from app.core.config import IMPACT_MODEL_PATH
+from src.utils.helper import IMPACT_MODEL_PATH
 from sklearn.pipeline import Pipeline
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.preprocessing import StandardScaler
